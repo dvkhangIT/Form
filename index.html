@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <script
+      src="https://kit.fontawesome.com/ec3dc95749.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="signup">
+      <h2 class="signup__heading">Create account</h2>
+      <p class="signup__already">
+        Already have an account ?
+        <a href="#" class="link signup__link--underline">Sign in</a>
+      </p>
+      <form action="#" class="signup__form">
+        <div class="form__group">
+          <input type="text" class="form__input" placeholder="Midname" />
+        </div>
+        <div class="form__group form__group--2">
+          <input type="text" class="form__input" placeholder="First name" />
+          <input type="text" class="form__input" placeholder="Last name" />
+        </div>
+        <div class="form__group">
+          <input type="email" class="form__input" placeholder="Email" />
+        </div>
+        <div class="form__group">
+          <button type="submit" class="form__submit">
+            <span class="form__submit--text">Sign up</span>
+            <i
+              class="fa-sharp fa-solid fa-right-from-bracket form__submit--icon"
+            ></i>
+          </button>
+        </div>
+        <div class="form__tos">
+          <input type="checkbox" name="" id="tos" />
+          <label for="tos"
+            >I have read and agree to the
+            <a href="#" class="link">Team of Service</a></label
+          >
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
